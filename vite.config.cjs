@@ -5,13 +5,17 @@ env.mode = env.mode || "production";
 export default defineConfig({
   root: "./",
   //:home: En esta linea se cambia la frase /eventos-app/ por el nombre de su repositorio
-  base: env.mode === "production" ? "/eventos-app/" : "/",
+  base: env.mode === "production" ? "/Eventos-app/" : "/",
   build: {
     outDir: "docs",
     assetsDir: "assets",
     rollupOptions: {
       input: {
-        main: resolve(__dirname, 'index.html')
+        main: resolve(__dirname, 'index.html'),
+        detalles: resolve(__dirname, 'detalles.html'),
+        informacion: resolve(__dirname, 'informacion.html'),
+        locations: resolve(__dirname, 'locations.html'),
+        timeline: resolve(__dirname, 'timeline.html')
       }
     }
   },
