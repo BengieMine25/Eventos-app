@@ -6,9 +6,10 @@
   <link rel="icon" type="image/svg+xml" href="/vite.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Eventos Online</title>
+
 </head>
 
-<body>
+<body class="mb-56">
   <!-- Encabezado de la aplicacion -->
   <div id="header"></div>
 
@@ -17,18 +18,112 @@
     <div class="text-md font-bold text-center text-gray-800">Reserva tu ticket ahora</div>
     <div class="text-sm text-center text-gray-500">Mar 17, 2023 </div>
   </div>
+
   <!-- Slider (Pase de diapositivas) -->
-  
-<div id="slider"></div>
+  <div id="slider"></div>
+
+
 
   <!-- Contenido de la aplicacion -->
   <main>
 
+
   </main>
 
-<div id="barra"></div>
 
+
+  <div id="barra"></div>
   <script type="module" src="src/js/main.js"></script>
-  
+
+  <!-- Parte intermedia -->
+  <div>
+    <font size="5" face="Arial Black">
+      <h1 class="px-4 py-2 text-black">Comprar paquete especial para ti</h1>
+    </font>
+  </div>
+
+  <div class="gap-4 text-left leading-10 md-4 max-w-full p-6 bg-red-500 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+      class="w-12 h-12">
+      <path stroke-linecap="round" stroke-linejoin="round"
+        d="M16.5 6v.75m0 3v.75m0 3v.75m0 3V18m-9-5.25h5.25M7.5 15h3M3.375 5.25c-.621 0-1.125.504-1.125 1.125v3.026a2.999 2.999 0 010 5.198v3.026c0 .621.504 1.125 1.125 1.125h17.25c.621 0 1.125-.504 1.125-1.125v-3.026a2.999 2.999 0 010-5.198V6.375c0-.621-.504-1.125-1.125-1.125H3.375z" />
+    </svg>
+
+    <a href="#">
+      <h5 class="mb-2 text-2xl font-bold tracking-tight text-white dark:text-white">
+        <font size="6">
+          Post Music Concert
+        </font>
+      </h5>
+    </a>
+    <h1 class="mb-3 font-normal text-white dark:text-white">
+      <font size="6">
+        Disfruta con toda tu familia en el evento mas esperado del año
+      </font>
+    </h1>
+    
+    <div class="text-right">
+      <button type="button"
+        class="text-black bg-white rounded-lg hover:bg-slate-400 focus:ring-2 focus:outline-none focus:ring-blue-300 dark:bg-white dark:hover:bg-white font-medium text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:focus:ring-red-900">
+        Comprar ahora</button>
+    </div>
+   
+  </div>
+
+  <!-- Iconos -->
+  <div>
+    <form size="5" face="Arial Black">
+      <h1 class="px-4 py-2 text-black">Todos los eventos</h1>
+    </form>
+  </div>
+  <div class="grid grid-cols-3 gap-4 text-center leading-10 md-4 mx-5 max-w-1 rounded-md shadow-sm" role="group">
+    <button type="button"
+      class="items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-l-lg hover:bg-red-500 hover:text-white focus:z-10 focus:ring-2 focus:ring-white dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-blue-500 dark:focus:text-white">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+        class="w-12 h-12">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M12 18.75a6 6 0 006-6v-1.5m-6 7.5a6 6 0 01-6-6v-1.5m6 7.5v3.75m-3.75 0h7.5M12 15.75a3 3 0 01-3-3V4.5a3 3 0 116 0v8.25a3 3 0 01-3 3z" />
+      </svg>
+      <div>
+        <font size="5">
+          <h1>Conciertos</h1>
+        </font>
+      </div>
+    </button>
+    <button type="button"
+      class="items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border-t border-b border-gray-200 hover:bg-red-500 hover:text-white focus:z-10 focus:ring-2 focus:ring-white dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-blue-500 dark:focus:text-white">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+        class="w-12 h-12">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M21.752 15.002A9.718 9.718 0 0118 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 003 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 009.002-5.998z" />
+      </svg>
+      <div>
+        <font size="5">
+          <h1>Cenas</h1>
+        </font>
+      </div>
+    </button>
+    <button type="button"
+      class="items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border-t border-b border-gray-200 hover:bg-red-500 hover:text-white focus:z-10 focus:ring-2 focus:ring-white dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-blue-500 dark:focus:text-white">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+        class="w-12 h-12">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M16.5 18.75h-9m9 0a3 3 0 013 3h-15a3 3 0 013-3m9 0v-3.375c0-.621-.503-1.125-1.125-1.125h-.871M7.5 18.75v-3.375c0-.621.504-1.125 1.125-1.125h.872m5.007 0H9.497m5.007 0a7.454 7.454 0 01-.982-3.172M9.497 14.25a7.454 7.454 0 00.981-3.172M5.25 4.236c-.982.143-1.954.317-2.916.52A6.003 6.003 0 007.73 9.728M5.25 4.236V4.5c0 2.108.966 3.99 2.48 5.228M5.25 4.236V2.721C7.456 2.41 9.71 2.25 12 2.25c2.291 0 4.545.16 6.75.47v1.516M7.73 9.728a6.726 6.726 0 002.748 1.35m8.272-6.842V4.5c0 2.108-.966 3.99-2.48 5.228m2.48-5.492a46.32 46.32 0 012.916.52 6.003 6.003 0 01-5.395 4.972m0 0a6.726 6.726 0 01-2.749 1.35m0 0a6.772 6.772 0 01-3.044 0" />
+      </svg>
+      <div>
+        <font size="5">
+          <h1>Deportes</h1>
+        </font>
+      </div>
+
+    </button>
+  </div>
+
+
+
+
+
+
 </body>
+
 </html>
