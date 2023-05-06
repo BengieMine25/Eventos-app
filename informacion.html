@@ -3,134 +3,148 @@
 
 <head>
   <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/Eventos-app/assets/vite-4a748afd.svg" />
+  <link rel="icon" type="image/svg+xml" href="/eventos/assets/vite-4a748afd.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Eventos Online</title>
-  <script type="module" crossorigin src="/Eventos-app/assets/header-b82e2849.js"></script>
-  <link rel="stylesheet" href="/Eventos-app/assets/header-ba81ecc1.css">
+  <script type="module" crossorigin src="/eventos/assets/header-772e5c3b.js"></script>
+  <link rel="stylesheet" href="/eventos/assets/header-0bff1c19.css">
 </head>
 
-<body class="bg-gray-600">
+<body class="bg-slate-800 mb-48">
   <!-- Encabezado de la aplicacion -->
   <div id="header"></div>
 
+  <!-- Texto superior -->
+  <main>
+    <!-- Imagen del artista -->
+    <img src="./src/imagenes/Rihanna 2.jpg" class="w-full">
+
+    <p class="px-5 text-left text-lg">Rihanna World Tour</p>
+    <!-- icono -->
+    <button
+      class="inline-flex px-4 py-2 items-center text-sm font-medium text-white bg-slate-800 border border-slate-800 rounded-l-lg hover:text-white focus:z-10 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+        class="w-6 h-6">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M9 9l10.5-3m0 6.553v3.75a2.25 2.25 0 01-1.632 2.163l-1.32.377a1.803 1.803 0 11-.99-3.467l2.31-.66a2.25 2.25 0 001.632-2.163zm0 0V2.25L9 5.25v10.303m0 0v3.75a2.25 2.25 0 01-1.632 2.163l-1.32.377a1.803 1.803 0 01-.99-3.467l2.31-.66A2.25 2.25 0 009 15.553z" />
+      </svg>
+      En Ocotal, Nueva Segovia
+    </button>
+
+
+
+  </main>
+
+  <!-- Slider (Pase de diapositivas) -->
+  <!-- <div id="slider"></div> -->
+
+
   <!-- Contenido de la aplicacion -->
   <main>
-    <div class="p-4 container imgR">
-      <img src="/src/images/6.jpg" class="w-full">
-      <div>
-        <div class="pieI">
-          <h1>Rosalia World Tour</h1>
-          <h1>En Ocotal, Nueva Segovia</h1>
-        </div>
 
-        <!-- Parte lateral -->
-        <div class="mainInfo">
-          <div>
-            <div class="org">
-              <div class="org1"></div>
-              <div>
-                <div class="org2">
-                  <h1 class="text-black italic">Organizador</h1>
-                  Indigo Violet
-                </div>
-              </div>
-              <div>
-                <div class="btnS italic">
-                  <a href="">
-                    <h1>Seguir</h1>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Opciones -->
-          <div>
-            <div class="opciones">
-              <a class="opc" href="">Opening</a>
-              <a class="opc" href="">Informacion</a>
-              <a class="opc" href="">Cantantes</a>
-              <a class="opc" href="">Mapa</a>
-              <a class="opc" href="">Mas</a>
-            </div>
-          </div>
-
-          <!-- informcaion y detalles -->
-          <div>
-            <div class="infoD">
-
-              <div>
-                <div class=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                    stroke="currentColor" class="w-6 h-6">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
-                    <path stroke-linecap="round" stroke-linejoin="round"
-                      d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
-                  </svg>
-                  <div class="icons">
-                    <h1>Estadio de Futbol - Roy Fernandez</h1>
-                  </div>
-                </div>
-              </div>
-
-              <div>
-                <div><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                    stroke="currentColor" class="w-6 h-6">
-                    <path stroke-linecap="round" stroke-linejoin="round"
-                      d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
-                  <div class="icons">
-                    <h1>11:00 pm - 04:00 am</h1>
-                  </div>
-                </div>
-              </div>
-
-              <div>
-                <div><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                    stroke="currentColor" class="w-6 h-6">
-                    <path stroke-linecap="round" stroke-linejoin="round"
-                      d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5" />
-                  </svg>
-                  <div class="icons">
-                    <h1>17 Oct - 18 Oct</h1>
-                  </div>
-                </div>
-              </div>
-
-              <div>
-                <div><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                    stroke="currentColor" class="w-6 h-6">
-                    <path stroke-linecap="round" stroke-linejoin="round"
-                      d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
-                  </svg>
-                  <div class="icons">
-                    <h1>146 reservaciones</h1>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div>
-            <div class="infoT">
-              <h1>¡Es hora de emocionarse porque estamos contentos de anunciar que la superestrella mundial Rosalia se
-                presentará en concierto en nuestra ciudad en pocos meses! <a class="opc" href="">ver mas...</a></h1>
-            </div>
-            <div>
-              <a class="tik mt-4" href="">
-                <h1>Comprar boleto</h1>
-              </a>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </div>
   </main>
 
   <div id="barra"></div>
-
   
+
+  <!-- Parte intermedia -->
+  <div class="main">
+
+    <div class="flex gap-2">
+      <span class="w-11 h-11 bg-gray-300 inline-flex"></span>
+      <div class="grid grid-cols-1">
+        <span class="text-black">Organizador</span>
+        <span class="text-gray-500">Indigo Violet</span>
+      </div>
+    </div>
+
+
+    <div class="text-right">
+      <button type="button"
+        class="text-white bg-red-700 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-red-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900">
+        Seguir</button>
+    </div>
+    <div class="grid grid-cols-5 gap-20 text-center leading-10 mb-4 mx-auto max-w-lg">
+
+      <h1 class="hover:text-red-700 indicador">Opening</h1>
+
+      <h1 class="hover:text-red-700 indicador">Información</h1>
+
+      <h1 class="hover:text-red-700 indicador">Cantantes</h1>
+
+      <h1 class="hover:text-red-700 indicador">Mapa</h1>
+
+      <h1 class="hover:text-red-700 indicador">Mas...</h1>
+    </div>
+
+
+    <div class="py-2 grid grid-cols-1">
+      <button
+        class="inline-flex px-4 py-2 items-center text-sm font-medium text-gray-500 rounded-l-lg focus:z-10 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+          class="w-6 h-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+        </svg>
+        Estadio de Futbol - Roy Fernandez
+      </button>
+      <button
+        class="inline-flex px-4 py-2 items-center text-sm font-medium text-gray-500 rounded-l-lg focus:z-10 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+          class="w-6 h-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
+
+        11:00 pm - 04:00 am
+      </button>
+      <button
+        class="inline-flex px-4 py-2 items-center text-sm font-medium text-gray-500 rounded-l-lg focus:z-10 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+          class="w-6 h-6">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5m-9-6h.008v.008H12v-.008zM12 15h.008v.008H12V15zm0 2.25h.008v.008H12v-.008zM9.75 15h.008v.008H9.75V15zm0 2.25h.008v.008H9.75v-.008zM7.5 15h.008v.008H7.5V15zm0 2.25h.008v.008H7.5v-.008zm6.75-4.5h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V15zm0 2.25h.008v.008h-.008v-.008zm2.25-4.5h.008v.008H16.5v-.008zm0 2.25h.008v.008H16.5V15z" />
+        </svg>
+
+        17Oct - 18 Oct
+      </button>
+      <button
+        class="inline-flex px-4 py-2 items-center text-sm font-medium text-gray-500 rounded-l-lg focus:z-10 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+          class="w-6 h-6">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
+        </svg>
+
+        146 reservaciones
+      </button>
+    </div>
+
+
+    <div class="main3">
+
+
+
+      <div class="text-left">
+        <font size="4">
+          <h1 class="leading-6 mb-4 max-w-lg">!Es hora de emocionarse porque estamos contentos de anunciar que la
+            superestrella mundial Rihanna se presentará en concierto en nuestra cuidad en pocos meses¡</h1>
+        </font>
+      </div>
+      <div class="text-right">
+        <button type="button"
+          class="w-full text-white bg-red-600 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-red-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900">
+          Comprar boletos</button>
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+
+
 
 </body>
 
